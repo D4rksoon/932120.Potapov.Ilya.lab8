@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="script.js"></script>
+    <title>Lab 8</title>
+</head>
+<body>
+    <div class="container">
+        <table class="table">
+            <tr>
+                <td><input type="text" class="key"></td>
+                <td><input type="text" class="value"></td>
+                <td><button onclick="moveUpRow(this)">↑</button></td>
+                <td><button onclick="moveDownRow(this)">↓</button></td>
+                <td><button onclick="deleteRow(this)">x</button></td>
+            </tr>
+        </table>
+        <button class="add" onclick="addInTable()">Добавить элемент</button><br/>
+        <button class="save_data" onclick="saveTable()">Сохранить</button>
+        <p class="saveMap"></p>
+    </div>
+</body>
+</html>
